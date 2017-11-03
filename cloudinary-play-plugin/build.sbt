@@ -2,7 +2,7 @@ import play.sbt.PlayImport._
 
 name := "cloudinary-scala-play"
 
-organization := "com.cloudinary"
+organization := "io.leonard"
 
 version := Common.version
 
@@ -16,7 +16,7 @@ resolvers += Resolver.file("Local Ivy", file(Path.userHome + "/.ivy2/local"))(
   Resolver.ivyStylePatterns)
 
 libraryDependencies ++= Seq(
-  "com.cloudinary" %% "cloudinary-core-scala" % version.value,
+  //"com.cloudinary" %% "cloudinary-core-scala" % version.value,
   guice)
 
 pomExtra := {

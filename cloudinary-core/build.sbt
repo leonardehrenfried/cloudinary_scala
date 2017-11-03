@@ -1,7 +1,7 @@
 import sbt._
 import Keys._
 
-organization := "com.cloudinary"
+organization := "io.leonard"
 
 version := Common.version
 
